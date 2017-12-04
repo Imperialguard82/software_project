@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <!--
+
+ *
+ * Date 3/12/2017
+ *
+ * @author Alexander Corcoran, x14365561
+ * @author Brian Doyle, x14322731
+ * @reference https://webplatform.github.io/docs/guides/html_lists/
+ * @reference https://www.w3schools.com/css/css_navbar.asp
+ * @reference https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
+ * @reference https://www.w3schools.com/jsref/met_win_alert.asp
+ -->
+        
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <script src = "script/jquery-3.2.1.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        
+        <title>4th Year Projects</title>
+         <link href="css/style.css" rel="stylesheet">
+         
+    </head>
+    <body>
+        <header>
+            <div class="header">
+            </div>
+            <div id="top-menu" class="menu-bar navbar navbar-default">
+        
+        <div class="col-xs-1"></div>
+        <div class="col-xs-10">
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="pfs.html">Projects for Students</a></li>
+              <li><a href="pfl.html">Project for Lecturers</a></li>
+              <li><a href="supervisors.html">Supervisors</a></li>
+              <li><a href="examiners.html">Examiners</a></li>
+              <li><a href="addprojects.html">Add Projects</a></li>
+              <li><a href="checkprojects.html">Check Projects</a></li>
+              <li><a href="pickprojects.html">Pick Projects</a></li>
+            </ul>
+            
+            <button type="button" onclick="alert('x14365561 has these Areas of Interest: \n Web Technologies, Java, Usability, Automation')">x14365561@student.ncirl.ie</button>
+
+
+        </div>
+        <div class="col-xs-1"></div>
+        
+        </div>
+        </header>
+
+
+ <div class="col-xs-1"></div>
+        <div class="col-xs-10">
+
+<div id=superviorstext>
+    <p>Welcome to the supervisors page.</p>
+    <p>Click the button to assign the supervisors</p>
+</div>
+ </div>
+ <div class="col-xs-1"></div>
+ 
+ 
+  <div class="col-xs-1"></div>
+        <div class="col-xs-10">
+<button onclick="myFunction()" id=showsupervisors>Assign supervisors</button>
+
+<div id="myDIV">
+<dl>
+      <dt>Paul Stynes</dt>
+      <dd>Alexander Corcoran</dd>
+      <dd>Alex Wong</dd>
+      <dd>Liam Scully</dd>
+      <dd>Khateeb Ahmad</dd>
+      <dd>Yu Xin</dd>
+      <dd>Aaron Clear</dd>
+</dl>
+</div>
+ </div>
+ <div class="col-xs-1"></div>
+ 
+ 
+ <footer>
+        <div id="wrapper">
+			<div id="social">
+			   <p>Social media connections will go here</p>
+			</div>
+		</footer>
+ <script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+
+</script>

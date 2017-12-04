@@ -1,0 +1,95 @@
+/*
+
+ *
+ * Date 3/12/2017
+ *
+ * @author Alexander Corcoran, x14365561
+ * @author Brian Doyle, x14322731
+ * @reference https://www.w3schools.com/css/css_navbar.asp
+ * @reference https://www.w3schools.com/css/css_navbar.asp
+ */
+#mainContent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+	border-radius: 4px;
+	padding: 10px;
+	text-align: center;
+	background-color: green;
+}
+#superviorstext{
+    text-align: center;
+	background-color: green;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+}
+#supbut{
+    text-align: center;
+	background-color: green;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+}
+#logo {
+    background-color: orange;
+    float: left;
+}
+
+header {
+  background: #444444;
+  color: #fff;
+  padding: 15px 0;
+}
+
+footer {
+  background: #444444;
+  color: #fff;
+  padding: 15px 0;
+}
+
+
+#who{
+    float:right;
+}
+
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+#showsupervisors{
+    position: center;
+    text-align: center;
+}
+#lproject{
+    border-style: solid;
+}

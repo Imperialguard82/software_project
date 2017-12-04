@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <!--
+
+ *
+ * Date 3/12/2017
+ *
+ * @reference https://www.w3schools.com/css/css_navbar.asp
+ * @author Alexander Corcoran, x14365561
+ * @author Brian Doyle, x14322731
+ * @reference https://www.w3schools.com/jsref/met_win_alert.asp
+ * @reference https://www.w3schools.com/js/tryit.asp?filename=tryjs_events_onclick
+ -->
+        
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <script src = "script/jquery-3.2.1.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        
+        <title>4th Year Projects</title>
+         <link href="css/style.css" rel="stylesheet">
+         
+    </head>
+    <body>
+        <header>
+            <div class="header">
+            </div>
+            <div id="top-menu" class="menu-bar navbar navbar-default">
+        
+        <div class="col-xs-1"></div>
+        <div class="col-xs-10">
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="pfs.html">Projects for Students</a></li>
+              <li><a href="pfl.html">Project for Lecturers</a></li>
+              <li><a href="supervisors.html">Supervisors</a></li>
+              <li><a href="examiners.html">Examiners</a></li>
+              <li><a href="addprojects.html">Add Projects</a></li>
+              <li><a href="checkprojects.html">Check Projects</a></li>
+              <li><a href="pickprojects.html">Pick Projects</a></li>
+            </ul>
+            
+            <button type="button" onclick="alert('x14365561 has these Areas of Interest: \n Web Technologies, Java, Usability, Automation')">x14365561@student.ncirl.ie</button>
+
+
+        </div>
+        <div class="col-xs-1"></div>
+        
+        </div>
+        </header>
+        <div id=mainContent>
+            <button type="button" onclick="alert('You have been given FYP Allocation Tool \n As it has the most similarities between Areas Covered and Areas of Experience')">Pick projects</button>
+            <div id=lproject>
+                <p>Areas of Interest:
+                Machine Learning, Parsing, Usability<br></p>
+                <p>Proposer:
+                Dominic Carr<br></p>
+                <p>Title:
+                Automatic Temporal Updates in Articles <br></p>
+                <p>Proposal: <br></p>
+                 <p>News articles will often refer to last week or today, or some more complicated variant reference to prior, current, or future, events. <br>
+                 This project would automatically update annotated temporal references with the time the reader is viewing the article,<br> 
+                 for example if the event occurred 1 week ago an article written 2 weeks prior would be updated to reflect the passage of time and the fact that the event covered has happened already.<br> 
+                 This will increase the readability and give quick indications as to the relevance of the article.</p>
+                
+                <button onclick="myFunction2()">Select project</button>
+                <p id="second"></p>
+                
+            </div>
+            <div id=lproject>
+                <p>Areas of Interest:
+                Teaching, Education, Allocation, Usability, Web Technologies<br></p>
+                <p>Proposer:
+                Dominic Carr<br></p>
+                <p>Title:
+                FYP Allocation Tool <br></p>
+                <p>Proposal: <br></p>
+                 <p>This project calls for the development of a web-based portal wherein NCI academics can upload project ideas for viewing by students.<br> 
+                 The students would then be able to select a set of projects (in order of preference) which they would like to undertake. <br>
+                 There would then be an automated allocation process which would allocate the projects. This allocation should endeavor to make as many people happy as possible. <br></p>
+                
+                
+                <button onclick="myFunction1()">Select project</button>
+                <p id="first"></p>
+            </div>
+            <div id=lproject>
+                <p>Areas of Interest:
+                Health, Mental health, Assistive Technologies, Interventions, Communication methods<br></p>
+                <p>Proposer:
+                Dominic Carr<br></p>
+                <p>Title:
+                Technology to Improve Mental Health <br></p>
+                <p>Proposal: <br></p>
+                 <p>This project targets the highly important area of mental health with a view to using the technology which is becoming ubiquitous in our lives to assist those with mental health issues through simple lifestyle interventions. <br>
+                 This work could be based around implementing an App to encourage one or more of the ``little things that make a big difference to how we feel'' as identified and advertised in the recent Irish government campaign </p>
+                
+                <button onclick="myFunction3()">Select project</button>
+                <p id="third"></p>
+                
+            </div>
+        </div>
+        
+        <footer>
+        <div id="wrapper">
+			<div id="social">
+			   <p>Social media connections will go here</p>
+			</div>
+		</footer>
+		
+		<script>
+            function myFunction1() {
+                document.getElementById("first").innerHTML = "First project selected";
+            }
+            function myFunction2() {
+                document.getElementById("second").innerHTML = "Second project selected";
+            }
+            function myFunction3() {
+                document.getElementById("third").innerHTML = "Third projec selectedt";
+            }
+        </script>
